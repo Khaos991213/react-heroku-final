@@ -1,0 +1,44 @@
+.Container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    margin:auto;
+    align-items:center;
+    background-image: url(../image/allstar.jpg);
+    z-index: -1;
+    opacity: 0.7;
+    display: inline-flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Team img{
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: 20px;
+    border-left:20px;
+    display:flexbox;
+    z-index: 1;
+    position: float;
+    border-radius: 1em;
+   
+}
+.HomeNext{
+    color: rgb(241, 218, 10);
+}
+a{
+    color: rgb(175, 141, 109);
+}
+@media (max-width: 768px) {
+    .Team img{
+        margin-top: 100px;
+        margin-left:35px;
+        width:80px;
+        height:60px;
+    }       
+    .Team p{
+        color:rgb(170, 99, 48)
+    }
+}

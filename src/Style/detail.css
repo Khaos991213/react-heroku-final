@@ -1,0 +1,86 @@
+.detailContainer{
+    background-image: rgb(224, 165, 165); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;margin:auto;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;  
+
+}
+.Content img{
+    background-size: cover;
+    display: flex;
+    margin:auto;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;  
+
+    margin:auto;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+.Content h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.list table {
+	width:80%;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:  410px;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    filter:brightness(0.9);
+
+}
+.list th {
+	background-color:#8C8CFF;
+	background:-o-linear-gradient(90deg, #8C8CFF, #bdbdfe);
+	background:-moz-linear-gradient( center top, #8C8CFF 5%, #bdbdfe 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8C8CFF), color-stop(1, #bdbdfe) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C8CFF', endColorstr='#bdbdfe');
+	color:#FFFFFF
+}
+.list,.list th,.list td
+{
+	font-size:0.95em;
+	text-align:center;
+	padding:4px;
+	border-collapse:collapse
+}
+.list td {
+	border:1px solid #bdbdfe;
+	border-collapse:collapse
+}
+.list tr:nth-child(odd){
+	background-color:#d8d8fe;
+	background:-o-linear-gradient(90deg, #d8d8fe, #f7f7fe);
+	background:-moz-linear-gradient( center top, #d8d8fe 5%, #f7f7fe 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d8d8fe), color-stop(1, #f7f7fe) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8d8fe', endColorstr='#f7f7fe');
+}
+.list tr:nth-child(even){
+	background-color:#fdfdfd;
+}
+@media (max-width: 768px) {
+    .list table{
+        margin-top: 100px;
+    }   
+    .list th{
+        font-size:10px;
+    }
+}
