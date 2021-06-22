@@ -5,12 +5,17 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Pages/Home'
-import react from 'react';
+import react ,{useEffect}from 'react';
 import NavBar from './Component/NavBar'
 import Detail from './Pages/Detail'
 import Search from './Pages/Search'
 import Map from './Pages/Map'
+import ReactGa from 'react-ga';
 function App() {
+  useEffect(()=>{
+    ReactGa.initialize('G-ZPVWJ43PFE')
+    ReactGa.pageview(window.location.pathname)
+  },[])
   return (
     <Router>
      <Switch>
