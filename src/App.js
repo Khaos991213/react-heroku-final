@@ -13,7 +13,7 @@ import Map from './Pages/Map'
 import ReactGa from 'react-ga';
 function App() {
   useEffect(()=>{
-    ReactGa.initialize('G-ZPVWJ43PFE')
+    ReactGa.initialize('UA-193220748-2')
     ReactGa.pageview(window.location.pathname)
   },[])
   return (
